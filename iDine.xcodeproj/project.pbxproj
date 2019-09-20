@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		753AE45523335E2600759277 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753AE45423335E2600759277 /* CheckoutView.swift */; };
 		756EDEF12332F55100DE0411 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756EDEF02332F55100DE0411 /* AppDelegate.swift */; };
 		756EDEF32332F55100DE0411 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756EDEF22332F55100DE0411 /* SceneDelegate.swift */; };
 		756EDEF52332F55100DE0411 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756EDEF42332F55100DE0411 /* ContentView.swift */; };
@@ -15,6 +16,14 @@
 		756EDEFD2332F55200DE0411 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756EDEFB2332F55200DE0411 /* LaunchScreen.storyboard */; };
 		756EDF082332F55200DE0411 /* iDineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756EDF072332F55200DE0411 /* iDineTests.swift */; };
 		756EDF132332F55200DE0411 /* iDineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756EDF122332F55200DE0411 /* iDineUITests.swift */; };
+		756EDF352332FB9100DE0411 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756EDF342332FB9100DE0411 /* Helper.swift */; };
+		756EDF382332FBE100DE0411 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756EDF362332FBE000DE0411 /* Menu.swift */; };
+		756EDF392332FBE100DE0411 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756EDF372332FBE000DE0411 /* Order.swift */; };
+		756EDF3B2333018500DE0411 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 756EDF3A2333018400DE0411 /* menu.json */; };
+		756EDF3D23332FAF00DE0411 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756EDF3C23332FAF00DE0411 /* ItemRow.swift */; };
+		756EDF3F2333472A00DE0411 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756EDF3E2333472A00DE0411 /* ItemDetail.swift */; };
+		756EDF41233356DA00DE0411 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756EDF40233356DA00DE0411 /* OrderView.swift */; };
+		756EDF4323335A9400DE0411 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756EDF4223335A9400DE0411 /* AppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		753AE45423335E2600759277 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		756EDEED2332F55100DE0411 /* iDine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		756EDEF02332F55100DE0411 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		756EDEF22332F55100DE0411 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,14 @@
 		756EDF0E2332F55200DE0411 /* iDineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		756EDF122332F55200DE0411 /* iDineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineUITests.swift; sourceTree = "<group>"; };
 		756EDF142332F55200DE0411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		756EDF342332FB9100DE0411 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = ../../../../Downloads/idine/Helper.swift; sourceTree = "<group>"; };
+		756EDF362332FBE000DE0411 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		756EDF372332FBE000DE0411 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		756EDF3A2333018400DE0411 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		756EDF3C23332FAF00DE0411 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		756EDF3E2333472A00DE0411 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		756EDF40233356DA00DE0411 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		756EDF4223335A9400DE0411 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +119,16 @@
 			children = (
 				756EDEF02332F55100DE0411 /* AppDelegate.swift */,
 				756EDEF22332F55100DE0411 /* SceneDelegate.swift */,
+				753AE45423335E2600759277 /* CheckoutView.swift */,
+				756EDF3A2333018400DE0411 /* menu.json */,
+				756EDF362332FBE000DE0411 /* Menu.swift */,
+				756EDF372332FBE000DE0411 /* Order.swift */,
+				756EDF342332FB9100DE0411 /* Helper.swift */,
 				756EDEF42332F55100DE0411 /* ContentView.swift */,
+				756EDF3C23332FAF00DE0411 /* ItemRow.swift */,
+				756EDF3E2333472A00DE0411 /* ItemDetail.swift */,
+				756EDF40233356DA00DE0411 /* OrderView.swift */,
+				756EDF4223335A9400DE0411 /* AppView.swift */,
 				756EDEF62332F55200DE0411 /* Assets.xcassets */,
 				756EDEFB2332F55200DE0411 /* LaunchScreen.storyboard */,
 				756EDEFE2332F55200DE0411 /* Info.plist */,
@@ -242,6 +269,7 @@
 			files = (
 				756EDEFD2332F55200DE0411 /* LaunchScreen.storyboard in Resources */,
 				756EDEFA2332F55200DE0411 /* Preview Assets.xcassets in Resources */,
+				756EDF3B2333018500DE0411 /* menu.json in Resources */,
 				756EDEF72332F55200DE0411 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,9 +295,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				756EDF392332FBE100DE0411 /* Order.swift in Sources */,
+				753AE45523335E2600759277 /* CheckoutView.swift in Sources */,
 				756EDEF12332F55100DE0411 /* AppDelegate.swift in Sources */,
 				756EDEF32332F55100DE0411 /* SceneDelegate.swift in Sources */,
+				756EDF3D23332FAF00DE0411 /* ItemRow.swift in Sources */,
 				756EDEF52332F55100DE0411 /* ContentView.swift in Sources */,
+				756EDF3F2333472A00DE0411 /* ItemDetail.swift in Sources */,
+				756EDF41233356DA00DE0411 /* OrderView.swift in Sources */,
+				756EDF352332FB9100DE0411 /* Helper.swift in Sources */,
+				756EDF4323335A9400DE0411 /* AppView.swift in Sources */,
+				756EDF382332FBE100DE0411 /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
